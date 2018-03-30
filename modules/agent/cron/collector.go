@@ -17,9 +17,9 @@ package cron
 import (
 	"time"
 
-	"github.com/open-falcon/falcon-plus/common/model"
-	"github.com/open-falcon/falcon-plus/modules/agent/funcs"
-	"github.com/open-falcon/falcon-plus/modules/agent/g"
+	"falcon-plus/common/model"
+	"falcon-plus/modules/agent/funcs"
+	"falcon-plus/modules/agent/g"
 )
 
 func InitDataHistory() {

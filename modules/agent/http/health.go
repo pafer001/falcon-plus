@@ -15,7 +15,7 @@
 package http
 
 import (
-	"github.com/open-falcon/falcon-plus/modules/agent/g"
+	"falcon-plus/modules/agent/g"
 	"net/http"
 )
 

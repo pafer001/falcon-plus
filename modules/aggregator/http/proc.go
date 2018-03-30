@@ -15,7 +15,7 @@
 package http
 
 import (
-	"github.com/open-falcon/falcon-plus/modules/aggregator/db"
+	"falcon-plus/modules/aggregator/db"
 	"net/http"
 )
 

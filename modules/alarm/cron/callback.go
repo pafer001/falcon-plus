@@ -21,10 +21,10 @@ import (
 
 	log "github.com/Sirupsen/logrus"
 
-	"github.com/open-falcon/falcon-plus/common/model"
-	"github.com/open-falcon/falcon-plus/common/utils"
-	"github.com/open-falcon/falcon-plus/modules/alarm/api"
-	"github.com/open-falcon/falcon-plus/modules/alarm/redi"
+	"falcon-plus/common/model"
+	"falcon-plus/common/utils"
+	"falcon-plus/modules/alarm/api"
+	"falcon-plus/modules/alarm/redi"
 	"github.com/toolkits/net/httplib"
 )
 

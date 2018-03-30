@@ -22,14 +22,14 @@ import (
 	log "github.com/Sirupsen/logrus"
 
 	pfc "github.com/niean/goperfcounter"
-	cmodel "github.com/open-falcon/falcon-plus/common/model"
-	cutils "github.com/open-falcon/falcon-plus/common/utils"
+	cmodel "falcon-plus/common/model"
+	cutils "falcon-plus/common/utils"
 
-	"github.com/open-falcon/falcon-plus/modules/graph/g"
-	"github.com/open-falcon/falcon-plus/modules/graph/index"
-	"github.com/open-falcon/falcon-plus/modules/graph/proc"
-	"github.com/open-falcon/falcon-plus/modules/graph/rrdtool"
-	"github.com/open-falcon/falcon-plus/modules/graph/store"
+	"falcon-plus/modules/graph/g"
+	"falcon-plus/modules/graph/index"
+	"falcon-plus/modules/graph/proc"
+	"falcon-plus/modules/graph/rrdtool"
+	"falcon-plus/modules/graph/store"
 )
 
 type Graph int
